@@ -1,6 +1,6 @@
 (def fipp-version "0.6.26")
 
-(defproject cider/cider-nrepl (or (not-empty (System/getenv "PROJECT_VERSION"))
+(defproject drewverlee/cider-nrepl (or (not-empty (System/getenv "PROJECT_VERSION"))
                                   "0.0.0")
   :description "A collection of nREPL middleware designed to enhance Clojure editors."
   :url "https://github.com/clojure-emacs/cider-nrepl"
